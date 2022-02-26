@@ -1,0 +1,1670 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>An Account of what men of war and privateers have been taken from the French since the beginning of the war (declared the 7th of May 1689,) to the first of October 1695.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1695</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 26 KB of XML-encoded text transcribed from 3 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A75840</idno>
+            <idno type="STC">Wing A430A</idno>
+            <idno type="STC">ESTC R173183</idno>
+            <idno type="EEBO-CITATION">43077445</idno>
+            <idno type="OCLC">ocm 43077445</idno>
+            <idno type="VID">151505</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A75840)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 151505)</note>
+            <note>Images scanned from microfilm: (Early English Books, 1641-1700 ; 2261:22)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>An Account of what men of war and privateers have been taken from the French since the beginning of the war (declared the 7th of May 1689,) to the first of October 1695.</title>
+               </titleStmt>
+               <extent>4 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Edward Jones in the Savoy,</publisher>
+                  <pubPlace>[London] :</pubPlace>
+                  <date>1695.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Caption title.</note>
+                  <note>Imprint from colophon.</note>
+                  <note>"16 Octob. 1695"--In ms. under colophon.</note>
+                  <note>Reproduction of original in: The Newberry Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Grand Alliance, War of the, 1689-1697.</term>
+               <term>Great Britain --  History, Naval --  Stuarts, 1603-1714.</term>
+               <term>Great Britain --  History --  William and Mary, 1689-1702.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-04</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-05</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-02</date>
+            <label>Judith Siefring</label>Sampled and proofread</change>
+         <change>
+            <date>2012-02</date>
+            <label>Judith Siefring</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:151505:1" rendition="simple:additions"/>
+            <head>An <hi>ACCOUNT</hi> of what <hi>Men of War</hi> and <hi>Privateers</hi> have been taken from the <hi>FRENCH</hi> ſince the Beginning of the <hi>War,</hi> (Declared the 7th of <hi>May 1689,</hi>) to the Firſt of <hi>October 1695.</hi>
+            </head>
+            <p>
+               <table>
+                  <row>
+                     <cell role="label">
+                        <hi>NAMES.</hi>
+                     </cell>
+                     <cell role="label">Guns, Pa<g ref="char:EOLhyphen"/>tereroes, Min. &amp;c.</cell>
+                     <cell role="label">Tuns.</cell>
+                     <cell role="label" cols="2">When Taken.</cell>
+                  </row>
+                  <row>
+                     <cell>ST. Barbara</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell rows="15" cols="2">
+                        <hi>Between the Beginning of the war, and the 25th of</hi> March <hi>1690.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>Effroiable, <hi>or</hi> Dreadful</cell>
+                     <cell> </cell>
+                     <cell>
+                        <hi>10</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>Green Dragon</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Lady Mary of Lombardy</cell>
+                     <cell> </cell>
+                     <cell>
+                        <hi>16</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>Louis</cell>
+                     <cell>
+                        <hi>8</hi>
+                     </cell>
+                     <cell>
+                        <hi>808</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>Vigorous Rouland</cell>
+                     <cell> </cell>
+                     <cell>81</cell>
+                  </row>
+                  <row>
+                     <cell>Thomas</cell>
+                     <cell>
+                        <hi>2</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Alexander</cell>
+                     <cell>
+                        <hi>6</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Lively</cell>
+                     <cell>
+                        <hi>30</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Play</cell>
+                     <cell>
+                        <hi>30</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell rows="2">Swift</cell>
+                     <cell>
+                        <hi>20 Gu. 4 Pa.</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell rows="2">Dragon Sloop</cell>
+                     <cell>
+                        <hi>8 Gu. 2 Pa.</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Blade of Wheat</cell>
+                     <cell>
+                        <hi>10</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>John of Dublin</cell>
+                     <cell>
+                        <hi>6</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Dover Store-ſhip</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell rows="2">La Fripponne</cell>
+                     <cell>
+                        <hi>18 Gu.</hi>
+                        <hi>10 Pa.</hi>
+                     </cell>
+                     <cell> </cell>
+                     <cell rows="12" cols="2">
+                        <hi>Between the 25th of</hi> March <hi>1690, and the 25th of</hi> March <hi>1691.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>St. James of Calais</cell>
+                     <cell> </cell>
+                     <cell>
+                        <hi>12</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>James</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Poſtilion of Dunkirk</cell>
+                     <cell>
+                        <hi>6</hi>
+                     </cell>
+                     <cell>
+                        <hi>25</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>Rowland</cell>
+                     <cell> </cell>
+                     <cell>
+                        <hi>10</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>Virgin</cell>
+                     <cell>
+                        <hi>32</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Julian</cell>
+                     <cell>
+                        <hi>14</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Pelican</cell>
+                     <cell>
+                        <hi>8</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Dover</cell>
+                     <cell>
+                        <hi>32</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Conception</cell>
+                     <cell>
+                        <hi>32</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Emanuel</cell>
+                     <cell>
+                        <hi>8</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Madalen Store-ſhip</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Crown of St. Malo</cell>
+                     <cell>
+                        <hi>15</hi>
+                     </cell>
+                     <cell>
+                        <hi>200</hi>
+                     </cell>
+                     <cell rows="9" cols="2">
+                        <hi>Between the 25th of</hi> March <hi>1691, and the 25th of</hi> March <hi>1692.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>St. Geneviefue of Cherbrought</cell>
+                     <cell>
+                        <hi>2</hi>
+                     </cell>
+                     <cell>
+                        <hi>20</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>Virgin Grace of Grandville</cell>
+                     <cell>
+                        <hi>18</hi>
+                     </cell>
+                     <cell>
+                        <hi>130</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell rows="2">Wheel of Fortune</cell>
+                     <cell>
+                        <hi>2 Gu. 2 Pa.</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Henry</cell>
+                     <cell>
+                        <hi>24</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>St. Albans</cell>
+                     <cell>
+                        <hi>18</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Crown</cell>
+                     <cell>
+                        <hi>26</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Extravagant</cell>
+                     <cell>
+                        <hi>10</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell rows="2">Germoon</cell>
+                     <cell>
+                        <hi>10 Gu.</hi>
+                     </cell>
+                     <cell>
+                        <hi>4 Pa.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>Arms of Gramee</cell>
+                     <cell> </cell>
+                     <cell>
+                        <hi>50</hi>
+                     </cell>
+                     <cell rows="29" cols="2">
+                        <hi>Between the 25th of</hi> March <hi>1692, and the 25th of</hi> March <hi>1693.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>St. Antonio of Nantes</cell>
+                     <cell>
+                        <hi>20</hi>
+                     </cell>
+                     <cell>
+                        <hi>170</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>Conqueror of Breſt</cell>
+                     <cell> </cell>
+                     <cell>
+                        <hi>70</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>La Cornelle of Diep</cell>
+                     <cell>
+                        <hi>2</hi>
+                     </cell>
+                     <cell>
+                        <hi>18</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>Diligent of St. Malo</cell>
+                     <cell>
+                        <hi>8</hi>
+                     </cell>
+                     <cell>
+                        <hi>50</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>Egypt of Malo</cell>
+                     <cell> </cell>
+                     <cell>
+                        <hi>25</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>St. Jacinth of St. Malo</cell>
+                     <cell>
+                        <hi>26</hi>
+                     </cell>
+                     <cell>
+                        <hi>200</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <pb n="2" facs="tcp:151505:2"/>St. Luke</cell>
+                     <cell>
+                        <hi>6</hi>
+                     </cell>
+                     <cell>
+                        <hi>40</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell rows="2">St. Nicholas of Calice</cell>
+                     <cell>
+                        <hi>2 Gun.</hi>
+                        <hi>2 Pat.</hi>
+                     </cell>
+                     <cell>
+                        <hi>20</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell>
+                        <hi>45</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>Union of St. Malo</cell>
+                     <cell>
+                        <hi>1</hi>
+                     </cell>
+                     <cell>
+                        <hi>15</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>Saudadoes Prize</cell>
+                     <cell>
+                        <hi>40</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>St. Martin</cell>
+                     <cell>
+                        <hi>24</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Goodwin</cell>
+                     <cell>
+                        <hi>6</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Wyld</cell>
+                     <cell>
+                        <hi>12</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Sun</cell>
+                     <cell>
+                        <hi>24</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Rupert</cell>
+                     <cell>
+                        <hi>18</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Pearl</cell>
+                     <cell>
+                        <hi>12</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Swallow</cell>
+                     <cell>
+                        <hi>18</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Mariana</cell>
+                     <cell>
+                        <hi>18</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>St. Vincent</cell>
+                     <cell>
+                        <hi>8 Minions</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Ruſee</cell>
+                     <cell>
+                        <hi>6</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell rows="2">Machine</cell>
+                     <cell>
+                        <hi>8 Sake.</hi>
+                        <hi>43 Po.</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Adventure</cell>
+                     <cell>
+                        <hi>2</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Mermaid</cell>
+                     <cell>
+                        <hi>8</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Joſeph</cell>
+                     <cell>
+                        <hi>8</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Creſcent</cell>
+                     <cell>
+                        <hi>8</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Fortune</cell>
+                     <cell>
+                        <hi>8</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell rows="2">Tartan Advice-boat</cell>
+                     <cell>
+                        <hi>4 Min.</hi>
+                        <hi>6 Pat.</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Beau-lieu de St. Malo</cell>
+                     <cell>
+                        <hi>32</hi>
+                     </cell>
+                     <cell> </cell>
+                     <cell rows="30" cols="2">
+                        <hi>Between the 25th of</hi> March <hi>1693, and the 25th of</hi> March <hi>1694.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>Crafty</cell>
+                     <cell>
+                        <hi>4</hi>
+                     </cell>
+                     <cell>
+                        <hi>40</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>Le Furet of Grandville</cell>
+                     <cell>
+                        <hi>4</hi>
+                     </cell>
+                     <cell>
+                        <hi>20</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>Fortune of St. Malo</cell>
+                     <cell>
+                        <hi>4</hi>
+                     </cell>
+                     <cell>
+                        <hi>20</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>La Fidelle of Nantes</cell>
+                     <cell>
+                        <hi>10</hi>
+                     </cell>
+                     <cell>
+                        <hi>90</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell rows="2">Greyhound</cell>
+                     <cell>
+                        <hi>14 Gu.</hi>
+                     </cell>
+                     <cell>
+                        <hi>4 Pa.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>La Galante</cell>
+                     <cell>
+                        <hi>6</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>La Jollie</cell>
+                     <cell>
+                        <hi>3</hi>
+                     </cell>
+                     <cell>
+                        <hi>14</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell rows="2">Jolly of St. Malo</cell>
+                     <cell>
+                        <hi>12 Gu.</hi>
+                        <hi>2 Pa.</hi>
+                     </cell>
+                     <cell>
+                        <hi>80</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell rows="2">La Legere of Bayonne</cell>
+                     <cell>
+                        <hi>26 Gu.</hi>
+                        <hi>6 Pa.</hi>
+                     </cell>
+                     <cell>
+                        <hi>240</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>St. Luke of St. Malo</cell>
+                     <cell>
+                        <hi>6</hi>
+                     </cell>
+                     <cell>
+                        <hi>40</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>St. Louis</cell>
+                     <cell>
+                        <hi>2</hi>
+                     </cell>
+                     <cell>
+                        <hi>70</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>La Legere of St. Malo</cell>
+                     <cell>
+                        <hi>3</hi>
+                     </cell>
+                     <cell>
+                        <hi>60</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>La Legere</cell>
+                     <cell>
+                        <hi>14</hi>
+                     </cell>
+                     <cell>
+                        <hi>100</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>Da Modeſte of St. Malo</cell>
+                     <cell>
+                        <hi>10</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Montcaſtle of St. Malo</cell>
+                     <cell>
+                        <hi>12</hi>
+                     </cell>
+                     <cell>
+                        <hi>80</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>Margaret of St. Malo</cell>
+                     <cell>
+                        <hi>24</hi>
+                     </cell>
+                     <cell>
+                        <hi>200</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>Noſtre Dame de Bulloigne</cell>
+                     <cell>
+                        <hi>4</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Princeſs of St. Malo</cell>
+                     <cell>
+                        <hi>14</hi>
+                     </cell>
+                     <cell>
+                        <hi>200</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>Queen Mary of Breſt</cell>
+                     <cell>
+                        <hi>32</hi>
+                     </cell>
+                     <cell>
+                        <hi>300</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>Revenge of Dunkirk</cell>
+                     <cell> </cell>
+                     <cell>
+                        <hi>20</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>La Ruſee of St. Malo</cell>
+                     <cell>
+                        <hi>4</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Sun of St. Malo</cell>
+                     <cell> </cell>
+                     <cell>
+                        <hi>120</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>Two Brothers</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell rows="2">Tyger of Nantes</cell>
+                     <cell>
+                        <hi>8 Gun.</hi>
+                        <hi>8 Pat.</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>St. Vincent of St. Malo</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Waking Lion</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Talbot Ketch</cell>
+                     <cell>
+                        <hi>10</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Eſſex</cell>
+                     <cell>
+                        <hi>16</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Portſmouth</cell>
+                     <cell>
+                        <hi>10</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <pb n="3" facs="tcp:151505:2"/> </cell>
+                     <cell>
+                        <hi>36</hi>
+                     </cell>
+                     <cell> </cell>
+                     <cell>
+                        <hi>3</hi> May.</cell>
+                     <cell cols="30">
+                        <hi>Between the 25th of</hi> March <hi>1693, and the 25th of</hi> March <hi>1694.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell rows="2">Dolphin of Dunkirk</cell>
+                     <cell>
+                        <hi>12 Gu.</hi>
+                        <hi>18 Pa.</hi>
+                     </cell>
+                     <cell>
+                        <hi>100</hi>
+                     </cell>
+                     <cell>
+                        <hi>23</hi> Febr.</cell>
+                  </row>
+                  <row>
+                     <cell>Content</cell>
+                     <cell>
+                        <hi>70</hi>
+                     </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Trident</cell>
+                     <cell>
+                        <hi>60</hi>
+                     </cell>
+                     <cell> </cell>
+                     <cell rows="2">
+                        <hi>28</hi> Jan.</cell>
+                  </row>
+                  <row>
+                     <cell>Town of St. Malo</cell>
+                     <cell>
+                        <hi>28</hi>
+                     </cell>
+                     <cell>
+                        <hi>250</hi>
+                     </cell>
+                     <cell>
+                        <hi>28</hi> Sept.</cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell>
+                        <hi>38</hi>
+                     </cell>
+                     <cell> </cell>
+                     <cell>
+                        <hi>15</hi> Octob.</cell>
+                  </row>
+                  <row>
+                     <cell>St. Lewis of Bourdeaux</cell>
+                     <cell>
+                        <hi>32</hi>
+                     </cell>
+                     <cell>
+                        <hi>300</hi>
+                     </cell>
+                     <cell>
+                        <hi>10</hi> June.</cell>
+                  </row>
+                  <row>
+                     <cell>Diligence</cell>
+                     <cell>
+                        <hi>4</hi>
+                     </cell>
+                     <cell>
+                        <hi>25</hi>
+                     </cell>
+                     <cell>
+                        <hi>15</hi> July.</cell>
+                  </row>
+                  <row>
+                     <cell>Vauban</cell>
+                     <cell>
+                        <hi>16</hi>
+                     </cell>
+                     <cell>
+                        <hi>130</hi>
+                     </cell>
+                     <cell>
+                        <hi>16</hi> Febr.</cell>
+                  </row>
+                  <row>
+                     <cell>John Francis of St. Malo</cell>
+                     <cell>
+                        <hi>20</hi>
+                     </cell>
+                     <cell>
+                        <hi>150</hi>
+                     </cell>
+                     <cell>
+                        <hi>14</hi> March.</cell>
+                  </row>
+                  <row>
+                     <cell>St. Peter Mary of St. Malo</cell>
+                     <cell>
+                        <hi>20</hi>
+                     </cell>
+                     <cell>
+                        <hi>200</hi>
+                     </cell>
+                     <cell>
+                        <hi>1</hi> October.</cell>
+                  </row>
+                  <row>
+                     <cell>Temerair</cell>
+                     <cell>
+                        <hi>56</hi>
+                     </cell>
+                     <cell> </cell>
+                     <cell>
+                        <hi>29</hi> Nov.</cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell>
+                        <hi>20</hi>
+                     </cell>
+                     <cell> </cell>
+                     <cell>
+                        <hi>30</hi> July.</cell>
+                  </row>
+                  <row>
+                     <cell>La Mary de Panchartrui</cell>
+                     <cell>
+                        <hi>28</hi>
+                     </cell>
+                     <cell>
+                        <hi>250</hi>
+                     </cell>
+                     <cell>
+                        <hi>2</hi> Septemb.</cell>
+                  </row>
+                  <row>
+                     <cell>Dauphin of Havre de Grace</cell>
+                     <cell>
+                        <hi>6</hi>
+                     </cell>
+                     <cell>
+                        <hi>40</hi>
+                     </cell>
+                     <cell>
+                        <hi>11</hi> July.</cell>
+                  </row>
+                  <row>
+                     <cell rows="2">Hope of St. Malo</cell>
+                     <cell>
+                        <hi>4 Gun.</hi>
+                        <hi>2 Pat.</hi>
+                     </cell>
+                     <cell> </cell>
+                     <cell>
+                        <hi>1</hi> May</cell>
+                  </row>
+                  <row>
+                     <cell>Fortune</cell>
+                     <cell>
+                        <hi>2</hi>
+                     </cell>
+                     <cell>
+                        <hi>20</hi>
+                     </cell>
+                     <cell>
+                        <hi>9</hi> Auguſt.</cell>
+                  </row>
+                  <row>
+                     <cell>St. James of Dunkirk</cell>
+                     <cell>
+                        <hi>4</hi>
+                     </cell>
+                     <cell>
+                        <hi>16</hi>
+                     </cell>
+                     <cell>
+                        <hi>22</hi> Febr.</cell>
+                  </row>
+                  <row>
+                     <cell rows="2">Squiril of Breſt</cell>
+                     <cell>
+                        <hi>12 Gu.</hi>
+                        <hi>6 Pa.</hi>
+                     </cell>
+                     <cell>
+                        <hi>60</hi>
+                     </cell>
+                     <cell>
+                        <hi>1</hi> February.</cell>
+                  </row>
+                  <row>
+                     <cell>Joyeuſe</cell>
+                     <cell>
+                        <hi>12</hi>
+                     </cell>
+                     <cell>
+                        <hi>70</hi>
+                     </cell>
+                     <cell>
+                        <hi>31</hi> May.</cell>
+                  </row>
+                  <row>
+                     <cell rows="2">L'Obeiſance</cell>
+                     <cell>
+                        <hi>12 Gu.</hi>
+                        <hi>16 Pa.</hi>
+                     </cell>
+                     <cell>
+                        <hi>300</hi>
+                     </cell>
+                     <cell>. March.</cell>
+                  </row>
+                  <row>
+                     <cell>Diligence of Havre de Grace</cell>
+                     <cell>
+                        <hi>10</hi>
+                     </cell>
+                     <cell>
+                        <hi>120</hi>
+                     </cell>
+                     <cell>
+                        <hi>10</hi> Sept.</cell>
+                  </row>
+                  <row>
+                     <cell>La Marie Bien Aymee</cell>
+                     <cell>
+                        <hi>10</hi>
+                     </cell>
+                     <cell>
+                        <hi>40</hi>
+                     </cell>
+                     <cell>
+                        <hi>12</hi> Dec.</cell>
+                  </row>
+                  <row>
+                     <cell>La Joyeuſe</cell>
+                     <cell>
+                        <hi>4</hi>
+                     </cell>
+                     <cell>
+                        <hi>35</hi>
+                     </cell>
+                     <cell>
+                        <hi>22</hi> Febr.</cell>
+                  </row>
+                  <row>
+                     <cell>Hope of St. Malo</cell>
+                     <cell>
+                        <hi>4</hi>
+                     </cell>
+                     <cell>
+                        <hi>45</hi>
+                     </cell>
+                     <cell>. Febr.</cell>
+                  </row>
+                  <row>
+                     <cell>Bonadventure</cell>
+                     <cell>
+                        <hi>2</hi>
+                     </cell>
+                     <cell>
+                        <hi>8</hi>
+                     </cell>
+                     <cell>
+                        <hi>1</hi> Septemb.</cell>
+                  </row>
+                  <row>
+                     <cell>Invincible of St. Malo</cell>
+                     <cell>
+                        <hi>54</hi>
+                     </cell>
+                     <cell>
+                        <hi>600</hi>
+                     </cell>
+                     <cell>
+                        <hi>17</hi> June.</cell>
+                  </row>
+                  <row>
+                     <cell>St. Nicholas of St. Malo</cell>
+                     <cell>
+                        <hi>28</hi>
+                     </cell>
+                     <cell>
+                        <hi>260</hi>
+                     </cell>
+                     <cell>
+                        <hi>31</hi> Auguſt.</cell>
+                  </row>
+                  <row>
+                     <cell>Coaſquen of St. Malo</cell>
+                     <cell>
+                        <hi>20</hi>
+                     </cell>
+                     <cell>
+                        <hi>120</hi>
+                     </cell>
+                     <cell>
+                        <hi>31</hi> July.</cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell>
+                        <hi>18</hi>
+                     </cell>
+                     <cell> </cell>
+                     <cell>
+                        <hi>28</hi> Jan.</cell>
+                  </row>
+                  <row>
+                     <cell>St. Anthony of Breſt</cell>
+                     <cell>
+                        <hi>6</hi>
+                     </cell>
+                     <cell>
+                        <hi>100</hi>
+                     </cell>
+                     <cell rows="13" cols="2">
+                        <hi>Between the 25th of</hi> March <hi>1694, and the 25th of</hi> March <hi>1695.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>Dorothy of Roſco</cell>
+                     <cell>
+                        <hi>6</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>La Dutcheſs de Chaulnes</cell>
+                     <cell>
+                        <hi>6</hi>
+                     </cell>
+                     <cell>
+                        <hi>50</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>Diamond</cell>
+                     <cell>
+                        <hi>6</hi>
+                     </cell>
+                     <cell>
+                        <hi>40</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>Entreprenant</cell>
+                     <cell>
+                        <hi>44</hi>
+                     </cell>
+                     <cell>
+                        <hi>350</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>Fortune of Dunkirk</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Judeth of Dunkirk</cell>
+                     <cell> </cell>
+                     <cell>
+                        <hi>25</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>Mayade</cell>
+                     <cell> </cell>
+                     <cell>
+                        <hi>80</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>Nymph of Calais</cell>
+                     <cell> </cell>
+                     <cell>
+                        <hi>12</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>St. Peter</cell>
+                     <cell>
+                        <hi>2</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Revenge of Dunkirk</cell>
+                     <cell> </cell>
+                     <cell>
+                        <hi>30</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>Surprenant</cell>
+                     <cell>
+                        <hi>1 Paterero</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Swan</cell>
+                     <cell>
+                        <hi>6</hi>
+                     </cell>
+                     <cell>
+                        <hi>36</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>La Brave</cell>
+                     <cell>
+                        <hi>4</hi>
+                     </cell>
+                     <cell>
+                        <hi>15</hi>
+                     </cell>
+                     <cell>
+                        <hi>15</hi> Auguſt.</cell>
+                     <cell rows="8">
+                        <hi>Between the 25th of</hi> March <hi>1695, and the Firſt of</hi> October <hi>1695.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>Good Hope of Calais</cell>
+                     <cell>
+                        <hi>2</hi>
+                     </cell>
+                     <cell>
+                        <hi>16</hi>
+                     </cell>
+                     <cell>
+                        <hi>21</hi> June.</cell>
+                  </row>
+                  <row>
+                     <cell>St. John of Dunkirk</cell>
+                     <cell>
+                        <hi>6</hi>
+                     </cell>
+                     <cell> </cell>
+                     <cell>
+                        <hi>6</hi> Auguſt.</cell>
+                  </row>
+                  <row>
+                     <cell rows="2">Amity of Breſt</cell>
+                     <cell>
+                        <hi>6 Gun.</hi>
+                        <hi>3 Pat.</hi>
+                     </cell>
+                     <cell> </cell>
+                     <cell>
+                        <hi>9</hi> July.</cell>
+                  </row>
+                  <row>
+                     <cell>Greyhound of Calais</cell>
+                     <cell>
+                        <hi>6 Paterero</hi>
+                     </cell>
+                     <cell> </cell>
+                     <cell>
+                        <hi>26</hi> Auguſt.</cell>
+                  </row>
+                  <row>
+                     <cell>Fortune of Calais</cell>
+                     <cell>
+                        <hi>4</hi>
+                     </cell>
+                     <cell>
+                        <hi>20</hi>
+                     </cell>
+                     <cell>
+                        <hi>15</hi> April.</cell>
+                  </row>
+                  <row>
+                     <cell>La Subtile de Calais</cell>
+                     <cell>
+                        <hi>6</hi>
+                     </cell>
+                     <cell>
+                        <hi>16</hi>
+                     </cell>
+                     <cell>
+                        <hi>10</hi> May.</cell>
+                  </row>
+                  <row>
+                     <cell>St. John of Dunkirk</cell>
+                     <cell rows="2">
+                        <hi>4 Gu.</hi>
+                        <hi>4 Pa.</hi>
+                     </cell>
+                     <cell> </cell>
+                     <cell>
+                        <hi>19</hi> July.</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <pb n="4" facs="tcp:151505:3"/>Little African</cell>
+                     <cell>
+                        <hi>4</hi>
+                     </cell>
+                     <cell>
+                        <hi>40</hi>
+                     </cell>
+                     <cell>
+                        <hi>10</hi> May.</cell>
+                     <cell rows="28">
+                        <hi>Between the 25th of</hi> March <hi>1695, and the Firſt of</hi> October <hi>1695.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>Adventure of Three Brothers</cell>
+                     <cell>
+                        <hi>6</hi>
+                     </cell>
+                     <cell>
+                        <hi>30</hi>
+                     </cell>
+                     <cell>
+                        <hi>4</hi> Auguſt.</cell>
+                  </row>
+                  <row>
+                     <cell>St. John</cell>
+                     <cell>
+                        <hi>10</hi>
+                     </cell>
+                     <cell>
+                        <hi>70</hi>
+                     </cell>
+                     <cell>
+                        <hi>7</hi> June.</cell>
+                  </row>
+                  <row>
+                     <cell>Spy</cell>
+                     <cell>
+                        <hi>10</hi>
+                     </cell>
+                     <cell>
+                        <hi>80</hi>
+                     </cell>
+                     <cell>
+                        <hi>8</hi> July.</cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell>
+                        <hi>1</hi>
+                     </cell>
+                     <cell> </cell>
+                     <cell>
+                        <hi>8</hi> May.</cell>
+                  </row>
+                  <row>
+                     <cell rows="2">La Hazarde</cell>
+                     <cell>
+                        <hi>2 Gun.</hi>
+                        <hi>4 Pat.</hi>
+                     </cell>
+                     <cell>
+                        <hi>20</hi>
+                     </cell>
+                     <cell>
+                        <hi>10</hi> June.</cell>
+                  </row>
+                  <row>
+                     <cell rows="2"> </cell>
+                     <cell>
+                        <hi>6 Gun.</hi>
+                        <hi>4 Pat.</hi>
+                     </cell>
+                     <cell>
+                        <hi>25</hi>
+                     </cell>
+                     <cell>
+                        <hi>29</hi> Sept.</cell>
+                  </row>
+                  <row>
+                     <cell rows="2">Poſtilion of St. Malo</cell>
+                     <cell>
+                        <hi>10 Gu<g ref="char:punc">▪</g>
+                        </hi>
+                        <hi>6 Pat.</hi>
+                     </cell>
+                     <cell> </cell>
+                     <cell>
+                        <hi>28</hi> July.</cell>
+                  </row>
+                  <row>
+                     <cell>Marie de Grace</cell>
+                     <cell>
+                        <hi>4</hi>
+                     </cell>
+                     <cell> </cell>
+                     <cell>
+                        <hi>8</hi> Auguſt.</cell>
+                  </row>
+                  <row>
+                     <cell rows="2">Greyhound of Breſt</cell>
+                     <cell>
+                        <hi>10 Gu.</hi>
+                        <hi>4 Pat.</hi>
+                     </cell>
+                     <cell> </cell>
+                     <cell>
+                        <hi>27</hi> March.</cell>
+                  </row>
+                  <row>
+                     <cell rows="2">Poſtilion of Dunkirk</cell>
+                     <cell>
+                        <hi>4 Gun.</hi>
+                        <hi>4 Pat.</hi>
+                     </cell>
+                     <cell>
+                        <hi>60</hi>
+                     </cell>
+                     <cell>
+                        <hi>30</hi> July.</cell>
+                  </row>
+                  <row>
+                     <cell>St. Catharine of Breſt</cell>
+                     <cell>
+                        <hi>10</hi>
+                     </cell>
+                     <cell> </cell>
+                     <cell>
+                        <hi>15</hi> July.</cell>
+                  </row>
+                  <row>
+                     <cell>Aymable.</cell>
+                     <cell>
+                        <hi>10</hi>
+                     </cell>
+                     <cell>
+                        <hi>60</hi>
+                     </cell>
+                     <cell>
+                        <hi>18</hi> July.</cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell>
+                        <hi>4</hi>
+                     </cell>
+                     <cell> </cell>
+                     <cell>
+                        <hi>15</hi> May.</cell>
+                  </row>
+                  <row>
+                     <cell>Harpe</cell>
+                     <cell>
+                        <hi>12</hi>
+                     </cell>
+                     <cell>
+                        <hi>80</hi>
+                     </cell>
+                     <cell>
+                        <hi>10</hi> July.</cell>
+                  </row>
+                  <row>
+                     <cell>Count de Revell</cell>
+                     <cell>
+                        <hi>36</hi>
+                     </cell>
+                     <cell>
+                        <hi>300</hi>
+                     </cell>
+                     <cell>
+                        <hi>19</hi> July.</cell>
+                  </row>
+                  <row>
+                     <cell>Gift of God</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell>
+                        <hi>10</hi>
+                     </cell>
+                     <cell> </cell>
+                     <cell>
+                        <hi>10</hi> May.</cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell>
+                        <hi>6</hi>
+                     </cell>
+                     <cell> </cell>
+                     <cell>
+                        <hi>9</hi> Auguſt.</cell>
+                  </row>
+                  <row>
+                     <cell>Le Penelle de Morlaix</cell>
+                     <cell>
+                        <hi>4</hi>
+                     </cell>
+                     <cell>
+                        <hi>25</hi>
+                     </cell>
+                     <cell>
+                        <hi>30</hi> April.</cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell>
+                        <hi>4</hi>
+                     </cell>
+                     <cell> </cell>
+                     <cell>
+                        <hi>14</hi> June.</cell>
+                  </row>
+                  <row>
+                     <cell>Greyhound Bitch</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell>
+                        <hi>10</hi>
+                     </cell>
+                     <cell> </cell>
+                     <cell>. July.</cell>
+                  </row>
+                  <row>
+                     <cell>Hope of Calais</cell>
+                     <cell> </cell>
+                     <cell>
+                        <hi>25</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Hope of Sherbourg</cell>
+                     <cell> </cell>
+                     <cell>
+                        <hi>8</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Noſtre Dame d'Amour</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>A Barge</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell>
+                        <hi>16</hi>
+                     </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+               </table>
+            </p>
+            <p>
+               <hi>Taken</hi>—<hi>184</hi>
+            </p>
+            <div type="part">
+               <head>An <hi>ACCOUNT</hi> of <hi>Privateers</hi> drove Aſhore, Burnt, or Deſtoyed, from the 10th of <hi>May 1694,</hi> to the Firſt of <hi>October 1695.</hi>
+               </head>
+               <p>
+                  <hi>ONE driven aſhore near the Coaſt of</hi> Jerſey <hi>by the</hi> Foreſight, <hi>the 17th of</hi> May <hi>1694.</hi>
+               </p>
+               <p>
+                  <hi>One drove aſhore and burnt near</hi> Conquet <hi>Road, by Captain</hi> Pickard <hi>in the</hi> Monument, <hi>the 10th of</hi> May <hi>1694.</hi>
+               </p>
+               <p>
+                  <hi>Four drove aſhore near Cape</hi> de Hague <hi>by the</hi> Saudadoes <hi>Prize and</hi> Hinde <hi>Pink, the 23d of</hi> July <hi>1694.</hi>
+               </p>
+               <p>
+                  <hi>One of 10 Guns drove aſhore near</hi> Calais, <hi>where ſhe was loſt, by the</hi> Aſſiſtance, <hi>the 10th of</hi> June <hi>1694.</hi>
+               </p>
+               <p>
+                  <hi>Two put aſhore near</hi> Granville, <hi>by the</hi> Saudadoes <hi>Prize, in</hi> March <hi>1694/5.</hi>
+               </p>
+               <p>
+                  <hi>One of 14 Guns put aſhore near</hi> Calais <hi>by the</hi> Queenborough, <hi>the 19th of</hi> April <hi>1695.</hi>
+               </p>
+               <p>
+                  <hi>Deſtroyed— 10</hi>
+               </p>
+               <p>
+                  <hi>Total taken and deſtroyed— 194</hi>
+               </p>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="colophon">
+            <p>Printed by <hi>Edward Jones</hi> in the <hi>Savoy.</hi> 1695.</p>
+         </div>
+      </back>
+   </text>
+</TEI>
